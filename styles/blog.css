@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+main {
+  min-height: 100vh;
+  background-color: #fff;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main h1 {
+  color: #104c90;
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.blog {
+  width: 30rem;
+  background-color: #f1f1f1;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.blog .blog-info h2 {
+  color: #2e7ad3;
+  padding-bottom: 1rem;
+}
+.blog .blog-info p {
+  padding: 1rem 0;
+}
+.blog .blog-info button {
+  background-color: #2e7ad3;
+  padding: 0.8rem;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.blog .blog-info button:hover {
+  background-color: #276ab6;
+}
